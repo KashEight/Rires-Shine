@@ -20,11 +20,12 @@ public class Rire {
 		Pattern p = Pattern.compile(truth);
 		Matcher m;
 		do {
-			System.out.print(charSet());
-			System.out.print(" ,");
-			m = p.matcher(content);
-			content = content + charSet().toString();
+			Character code = charSet();
 			i++;
+			System.out.print(code);
+			System.out.print(", ");
+			content = content + code.toString();
+			m = p.matcher(content);
 		} while (!m.find());
 		System.out.println("");
 		System.out.println(i + "回目でりれすしねが見つかりました！");
