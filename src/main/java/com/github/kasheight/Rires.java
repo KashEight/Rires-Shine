@@ -25,11 +25,11 @@ public class Rires {
 
             System.out.print(c);
 	        text = text + c;
-			m = p.matcher(text);
+	        m = p.matcher(text);
         } while (!m.find());
 
         System.out.println("");
-	    System.out.println(i + "回目でりれすしねが見つかりました！");
+        System.out.println(i + "回目でりれすしねが見つかりました！");
 
     }
 
