@@ -32,5 +32,4 @@ public class Rires {
         System.out.println(i + "回目でりれすしねが見つかりました！");
 
     }
-
 }
